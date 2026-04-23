@@ -428,7 +428,7 @@ mod external {
             .stdout(stdout)
             .stderr(Stdio::null());
 
-        // Fix for https://github.com/helix-editor/helix/issues/5424
+        // Fix for https://github.com/jamowei/helix/issues/5424
         #[cfg(unix)]
         {
             use std::os::unix::process::CommandExt;
