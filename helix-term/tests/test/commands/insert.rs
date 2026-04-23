@@ -2,7 +2,7 @@ use super::*;
 
 #[tokio::test(flavor = "multi_thread")]
 async fn change_line_above_comment() -> anyhow::Result<()> {
-    // <https://github.com/helix-editor/helix/issues/12570>
+    // <https://github.com/jamowei/helix/issues/12570>
     test((
         indoc! {"\
         #[fn main() {}
@@ -58,7 +58,7 @@ async fn insert_newline_many_selections() -> anyhow::Result<()> {
     ))
     .await?;
 
-    // <https://github.com/helix-editor/helix/issues/12495>
+    // <https://github.com/jamowei/helix/issues/12495>
     test((
         indoc! {"\
             id #(|1)#,Item #(|1)#,cost #(|1)#,location #(|1)#
@@ -88,7 +88,7 @@ async fn insert_newline_many_selections() -> anyhow::Result<()> {
     ))
     .await?;
 
-    // <https://github.com/helix-editor/helix/issues/12461>
+    // <https://github.com/jamowei/helix/issues/12461>
     test((
         indoc! {"\
             real R〉 #(||)# 〈real R〉 @ 〈real R〉
@@ -250,7 +250,7 @@ async fn insert_newline_continue_line_comment() -> anyhow::Result<()> {
     .await?;
 
     // Comment continuation should work on multiple selections.
-    // <https://github.com/helix-editor/helix/issues/12539>
+    // <https://github.com/jamowei/helix/issues/12539>
     test((
         indoc! {"\
             ///·Docs#[|·]#
@@ -548,7 +548,7 @@ async fn try_restore_indent() -> anyhow::Result<()> {
 }
 
 // Tests being able to jump in insert mode, then undo the write performed by the jump
-// https://github.com/helix-editor/helix/issues/13480
+// https://github.com/jamowei/helix/issues/13480
 #[tokio::test(flavor = "multi_thread")]
 async fn test_jump_undo_redo() -> anyhow::Result<()> {
     use helix_core::hashmap;
