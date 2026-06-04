@@ -28,7 +28,7 @@ RUSTFLAGS="-C target-feature=-crt-static"
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/helix-editor/helix
+   git clone https://github.com/jamowei/helix
    cd helix
    ```
 
@@ -145,7 +145,7 @@ hx --health
 ```
 
 For more information on the health check results refer to
-[Health check](https://github.com/helix-editor/helix/wiki/Healthcheck).
+[Health check](https://github.com/jamowei/helix/wiki/Healthcheck).
 
 ### Configure the desktop shortcut
 

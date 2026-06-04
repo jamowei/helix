@@ -9,12 +9,12 @@ Note that:
 
 - To take full advantage of Helix, install the language servers for your
   preferred programming languages. See the
-  [wiki](https://github.com/helix-editor/helix/wiki/Language-Server-Configurations)
+  [wiki](https://github.com/jamowei/helix/wiki/Language-Server-Configurations)
   for instructions.
 
 ## Pre-built binaries
 
-Download pre-built binaries from the [GitHub Releases page](https://github.com/helix-editor/helix/releases).
+Download pre-built binaries from the [GitHub Releases page](https://github.com/jamowei/helix/releases).
 The tarball contents include an `hx` binary and a `runtime` directory.
 To set up Helix:
 

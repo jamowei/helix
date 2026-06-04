@@ -129,7 +129,7 @@ async fn test_split_write_quit_same_file() -> anyhow::Result<()> {
 
 #[tokio::test(flavor = "multi_thread")]
 async fn test_changes_in_splits_apply_to_all_views() -> anyhow::Result<()> {
-    // See <https://github.com/helix-editor/helix/issues/4732>.
+    // See <https://github.com/jamowei/helix/issues/4732>.
     // Transactions must be applied to any view that has the changed document open.
     // This sequence would panic since the jumplist entry would be modified in one
     // window but not the other. Attempting to update the changelist in the other
@@ -167,7 +167,7 @@ async fn test_changes_in_splits_apply_to_all_views() -> anyhow::Result<()> {
     ))
     .await?;
 
-    // See <https://github.com/helix-editor/helix/issues/4957>.
+    // See <https://github.com/jamowei/helix/issues/4957>.
     // This sequence undoes part of the history and then adds new changes, creating a
     // new branch in the history tree. `View::sync_changes` applies transactions down
     // and up to the lowest common ancestor in the path between old and new revision
@@ -198,7 +198,7 @@ async fn test_changes_in_splits_apply_to_all_views() -> anyhow::Result<()> {
 
 #[tokio::test(flavor = "multi_thread")]
 async fn test_changes_in_splits_jumplist_sync() -> anyhow::Result<()> {
-    // See <https://github.com/helix-editor/helix/issues/9833>
+    // See <https://github.com/jamowei/helix/issues/9833>
     // When jumping backwards (<C-o>) switches between two documents, we need to
     // ensure that the current view has been synced with all changes to the
     // document that occurred since the last time the view focused this document.

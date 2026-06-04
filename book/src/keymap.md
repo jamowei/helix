@@ -25,7 +25,7 @@
 
 > 💡 Mappings marked (**TS**) require a tree-sitter grammar for the file type.
 
-> ⚠️ Some terminals' default key mappings conflict with Helix's. If any of the mappings described on this page do not work as expected, check your terminal's mappings to ensure they do not conflict. See the [wiki](https://github.com/helix-editor/helix/wiki/Terminal-Support) for known conflicts.
+> ⚠️ Some terminals' default key mappings conflict with Helix's. If any of the mappings described on this page do not work as expected, check your terminal's mappings to ensure they do not conflict. See the [wiki](https://github.com/jamowei/helix/wiki/Terminal-Support) for known conflicts.
 
 ## Normal mode
 

@@ -7,8 +7,8 @@ src = "src"
 cname = "docs.helix-editor.com"
 default-theme = "colibri"
 preferred-dark-theme = "colibri"
-git-repository-url = "https://github.com/helix-editor/helix"
-edit-url-template = "https://github.com/helix-editor/helix/edit/master/book/{path}"
+git-repository-url = "https://github.com/jamowei/helix"
+edit-url-template = "https://github.com/jamowei/helix/edit/master/book/{path}"
 additional-css = ["custom.css"]
 
 [output.html.search]

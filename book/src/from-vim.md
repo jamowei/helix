@@ -73,7 +73,7 @@ delete to line end:
 * vim: `D`
 * helix: `vgld` or `t<ret>d`
 
-Note: `v` is used along with `gl` (go to line end), because [`gl` does not select text](https://github.com/helix-editor/helix/issues/1630).
+Note: `v` is used along with `gl` (go to line end), because [`gl` does not select text](https://github.com/jamowei/helix/issues/1630).
 `t<ret>` selects "'til" the newline represented by `<ret>`.
 
 delete entire line:

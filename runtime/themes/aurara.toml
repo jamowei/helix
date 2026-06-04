@@ -51,7 +51,7 @@
 # NOTE:
 # blinking doesn't work with italics, another reason to not italicize comments
 # see keys here:
-  # https://github.com/helix-editor/helix/blob/master/book/src/themes.md#scopes
+  # https://github.com/jamowei/helix/blob/master/book/src/themes.md#scopes
 # can fetch syntax highlighting tests from here:
   # https://github.com/sharkdp/bat
 

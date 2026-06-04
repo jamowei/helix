@@ -20,7 +20,7 @@
   - [Packably](#packably)
   - [MSYS2](#msys2)
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/helix-editor.svg)](https://repology.org/project/helix-editor/versions)
+[![Packaging status](https://repology.org/badge/vertical-allrepos/helix-editor.svg)](https://repology.org/project/jamowei/versions)
 
 ## Linux
 
@@ -37,7 +37,7 @@ If you are running a system older than Debian 13, follow the steps for
 
 ### Ubuntu/Mint
 
-Install the Debian package [from the release page](https://github.com/helix-editor/helix/releases/latest).
+Install the Debian package [from the release page](https://github.com/jamowei/helix/releases/latest).
 
 If you are running a system older than Ubuntu 22.04, Mint 21, or Debian 12, you can build the `.deb` file locally
 [from source](./building-from-source.md#building-the-debian-package).
@@ -104,7 +104,7 @@ This will install Helix as both `/snap/bin/helix` and `/snap/bin/hx`, so make su
 ### AppImage
 
 Install Helix using the Linux [AppImage](https://appimage.org/) format.
-Download the official Helix AppImage from the [latest releases](https://github.com/helix-editor/helix/releases/latest) page.
+Download the official Helix AppImage from the [latest releases](https://github.com/jamowei/helix/releases/latest) page.
 
 ```sh
 chmod +x helix-*.AppImage # change permission for executable mode
